@@ -149,7 +149,7 @@ body {
 .hero__paragraph{
     margin-bottom: 20px;
 }
-
+/* ES EL BOTON AZUL */ 
 .cta{
     display: inline-block;
     background-color: #2091f9;
@@ -160,3 +160,4 @@ body {
     border-radius: 32px;
 
 }
+
