@@ -223,7 +223,7 @@ overflow: hidden;
     align-items: center;
  }
 .knowledge__picture{
-    max-width: 500px;
+    max-width: 600px;
 }
 .knowledge__paragraph{
     line-height: 1.7;
@@ -275,7 +275,7 @@ overflow: hidden;
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center;
+    object-position:0px -4.1px;
   }
 /* revisar lo de la poscion */
   .testimony__course{
