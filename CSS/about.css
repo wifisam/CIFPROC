@@ -139,3 +139,62 @@
     color: #fff;
   }
   
+
+  .about-section {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    padding: 50px;
+    background-color: #fff;
+}
+
+.about-info {
+    max-width: 800px; /* Limita el ancho para mejorar la legibilidad */
+    width: 100%; /* Asegúrate de que ocupe el 100% del contenedor */
+    margin: 0 20px; /* Agrega margen horizontal */
+    text-align: justify; /* Justifica el texto para una apariencia más profesional */
+}
+
+.about-info h2 {
+    margin-bottom: 20px; /* Añade un espacio debajo del título */
+    font-size: 2em; /* Ajusta el tamaño del título */
+    color: #333; /* Cambia el color del texto según tu paleta */
+}
+
+.about-info p {
+    line-height: 1.6; /* Mejora la legibilidad con un mayor interlineado */
+    color: #555; /* Color del texto para mejorar el contraste */
+}
+/* parte de el blog */
+
+.blog-section {
+  padding: 50px; /* Ajusta el espaciado alrededor de la sección según sea necesario */
+  background-color: #f9f9f9; /* Puedes cambiar el color de fondo */
+}
+
+.blog-info {
+  max-width: 800px; /* Limita el ancho para una mejor presentación */
+  margin: 0 auto; /* Centra el contenido */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.blog-info h2 {
+  margin-bottom: 20px; /* Espacio debajo del título principal */
+  font-size: 2em; /* Tamaño del título */
+}
+
+.blog-info h3 {
+  margin-bottom: 10px; /* Espacio debajo del subtítulo */
+  font-size: 1.5em; /* Tamaño del subtítulo */
+}
+
+.blog-info a {
+  display: block; /* Hace que cada enlace ocupe toda la línea */
+  margin-bottom: 15px; /* Espacio entre cada enlace */
+  color: #007BFF; /* Color del enlace */
+  text-decoration: none; /* Sin subrayado en los enlaces */
+}
+
+.blog-info a:hover {
+  text-decoration: underline; /* Añade subrayado al pasar el mouse */
+}
