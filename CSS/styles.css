@@ -85,70 +85,14 @@ body {
     z-index: -1;
 }
 
-/*
-/* NAV */
-/* .nav {
-    top: 0;
-    display: flex;
-    --padding--containter: 0;
-    background-color: #001A49;
-
-} */ 
+/* nav  */
 
 
-
-.nav{
-    --padding-container:0;
-    height: 100%;
-    display: flex;
-    align-items: center;
-   
-}
-
-.nav__title{
-    font-weight: 300;
-}
-
-
-
-.nav__items{
-    list-style: none;
-}
-
-.nav__link{
-    margin-left: auto;
-    padding: 0;
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: max-content;
-    gap: 20px;
-
-}
 
 .nav__links{
     color: #fff;
     text-decoration: none;
 }
-
-
-.nav__menu {
-    margin-left: auto;
-    cursor: pointer;
-    display: none;
-    list-style: none;
-
-}
-
-.nav__img{
-    display:block;
-    width: 30px;
-
-}
-
-.nav__close{
-    display: var(--show , none)
-} 
-
 
 /* HERO CONTAINER */
 
@@ -390,11 +334,10 @@ overflow: hidden;
     font-weight: 300;
     font-size: 2rem;
     margin-bottom: 30px;
+    color: white;
 }
 
-.footer__title, .footer__newsletter{
-    color: #fff;
-}
+
 
 .footer__container{
     display: flex;
@@ -418,30 +361,7 @@ overflow: hidden;
     flex-wrap: wrap;
 }
 
-.footer__inputs{
-    background-color: #fff;
-    height: 50px;
-    display: block;
-    padding-left: 10px;
-    border-radius: 6px;
-    font-size: 1rem;
-    outline: none;
-    border: none;
-    margin-right: 16px;
-}
 
-.footer__submit{
-    margin-left: auto;
-    display: inline-block;
-    height: 50px;
-    padding: 0 20px;
-    background-color: #2091f9;
-    border: none;
-    font-size: 1rem;
-    color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
-}
 
 .footer__copy{
     --padding-container: 30px 0;
@@ -559,10 +479,7 @@ overflow: hidden;
         margin: 0;
     }
 
-    .footer__form{
-        width: 100%;
-        justify-content: space-evenly;
-    }
+
 
     .footer__input{
         flex: 1;
@@ -630,25 +547,12 @@ overflow: hidden;
         justify-content: space-between;
     }
 
-    .footer__inputs{
-        flex-wrap: wrap;
-    }
-
     .footer__input{
         flex-basis: 100%;
         margin: 0;
         margin-bottom: 16px;
     }
 
-    .footer__submit{
-        margin-right: auto;
-        margin-left: 0;
-        
-
-        /* 
-        margin:0;
-        width: 100%;
-        */
-    }
+   
 }
 

@@ -8,6 +8,69 @@
    
 }
 
+
+.nav__title{
+    font-weight: 300;
+    font-family: "Times", "Times New Roman" serif ;
+}
+
+
+
+.nav__items{
+    list-style: none;
+    font-family: "Times", "Times New Roman" serif ;
+}
+
+.nav__link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 20px;
+
+}
+
+.nav__menu {
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+  
+
+}
+
+.nav__img{
+    display:block;
+    width: 30px;
+}
+
+
+.nav__close{
+    display: var(--show , none)
+} 
+
+
+
+/*
+/* NAV */
+/* .nav {
+    top: 0;
+    display: flex;
+    --padding--containter: 0;
+    background-color: #001A49;
+
+} */ 
+
+/* 
+
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+   
+}
+
 .nav__title{
     font-weight: 300;
 }
@@ -29,7 +92,7 @@
 }
 
 .nav__links{
-    color: #000000;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -42,12 +105,8 @@
 
 }
 
-.nav__img{
-    display:block;
-    width: 30px;
+ */
 
-}
+/* HERO2 */
 
-.nav__close{
-    display: var(--show , none)
-} 
+
